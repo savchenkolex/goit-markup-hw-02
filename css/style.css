@@ -132,6 +132,10 @@ body {
     cursor: pointer;
 }
 
+.our-team {
+    background-color: var(--cloud);
+}
+
 .dark-footer { 
     background-color: var(--dark-navy-blue);
     color: #FFFFFF;
