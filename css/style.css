@@ -1,4 +1,4 @@
-:root {
+body {
     --primary-brand-color-iris: #4D5AE5;
     --dark-navy-blue: #2E2F42;
     --success: #31D0AA;
@@ -7,38 +7,69 @@
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
 
-}
-
-body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.3px;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--slate);
 }
 
-h1,
-h2,
-h3 {
-    letter-spacing: 0.3px;
-}
 
-h1 {
+.hero {
     font-size: 56px;
+    
 }
 
-h2 {
+.baner {
+    line-height: 1;
+    color: #FFFFFF;
+    text-align: center;
+    
+    background-color: var(--dark-navy-blue);
+}
+
+.header-sections {
     font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    color: var(--dark-navy-blue);
+    text-align: center;
 }
 
-h3 {
+.header-items {
     font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark-navy-blue);
+}
+
+.text-items {
+    color: var(--slate);
+
+}
+
+.header-hiden {
+    
+}
+
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.similar {
+    list-style: none;
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -48,11 +79,60 @@ h3 {
 
 .logo-studio {
     color: var(--dark-navy-blue);
+}
+
+.logo-studio-cloud {
+    color: var(--cloud);
+}
+
+.top-menu {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    
+}
+
+
+.top-menu-link {
+    text-decoration: none;
+    color: var(--dark-navy-blue);
 
 }
 
-/* .container {
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+.top-menu-link:hover,
+.top-menu-link:focus {
+    color: var(--slate);
+}
+
+.top-menu-link:active {
+    color: var(--primary-brand-color-iris);
+}
+
+.current-page {
+    color: var(--primary-brand-color-iris);
+}
+
+.top-contacts {
+    
+}
+
+.contact {
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate)  
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--primary-brand-color-iris);
+}
+
+.button { 
+    cursor: pointer;
+}
+
+.dark-footer { 
+    background-color: var(--dark-navy-blue);
+    color: #FFFFFF;
+}
