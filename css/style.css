@@ -56,7 +56,8 @@ body {
 
 .top-menu-link:hover,
 .top-menu-link:focus {
-    color: var(--slate);
+    /* color: var(--slate); */
+    color: var(--primary-brand-color-iris);
 }
 
 .top-menu-link:active {
@@ -152,33 +153,37 @@ body {
 /* Buttons */
 .button {
     display: inline-block;
-    width: 170px;
-    height: 51px;
     font-weight: 700;
-    line-height: 1.18;
+    line-height: 1.5;
     color: #FFFFFF;
     background-color: var(--primary-brand-color-iris);
     cursor: pointer;
 
-    border-width: 0;
-    border-style: none;
+    border: none;
     border-radius: 4px;
+    padding: 16px 32px;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .filter.button {
     color: var(--primary-brand-color-iris);
-
+    
+    border: 1px solid var(--cornflower);
     background-color: var(--cornflower);
-    width: auto;
-    height: auto;
     padding: 8px 16px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     color: #FFFFFF;
     background-color: var(--button-dark-blue);
     
+}
+
+.filter.button:hover,
+.filter.button:focus {
+    border: 1px solid var(--primary-brand-color-iris);
 }
 
 /* Portfolio page style */
