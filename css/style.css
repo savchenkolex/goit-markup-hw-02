@@ -152,13 +152,14 @@ body {
 
 /* Buttons */
 .button {
-    display: inline-block;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
     color: #FFFFFF;
     background-color: var(--primary-brand-color-iris);
     cursor: pointer;
-
+    
+    display: inline-block;
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
